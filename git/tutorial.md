@@ -41,3 +41,19 @@ git fetch origin 我猜相当于从云端同步变化到本地
 git push origin branch
 ```
 ##增加分支branch
+```
+git branch branch_name 
+```
+```
+git branch 显示当前的分支
+git checkout branch_name 切换到branch_name分支
+git merge branch_name 在当前分支合并分支branch_name
+git checkout -b branch_name 创建并切换到branch_name分支上
+git branch -d branch_naem 删除分支
+```
+
+##遇到冲突的分支合并
+```
+用vim打开冲突的文件然后手动修改，修改后git add ，gitcommit 
+```
+
