@@ -34,7 +34,9 @@ git remote add repo_name repo_url
 ```
 ## 抓取远端的repo
 ```
-git fetch origin 我猜相当于从云端同步变化到本地
+git fetch origin 我猜相当于从云端同步变化到本地，但是并没有合并 还需要自己merge
+或者 
+git pull ，直接取回来并合并
 ```
 ## 把变化提交到云端
 ```
